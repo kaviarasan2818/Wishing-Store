@@ -10,7 +10,7 @@ function closeDropDown() {
 
 let openArri=true;
 
-function openConntent(content){
+function openContent(content){
     if(openArri){
         document.getElementById(content).style.display="block";
         openArri=false;
