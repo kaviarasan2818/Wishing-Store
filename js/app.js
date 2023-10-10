@@ -10,7 +10,7 @@ function closeDropDown() {
 
 let openArri=true;
 
-function openContent(content){
+function openArrivals(content){
     if(openArri){
         document.getElementById(content).style.display="block";
         openArri=false;
@@ -18,6 +18,19 @@ function openContent(content){
     else{
         document.getElementById(content).style.display="none" ;
         openArri=true;
+    }
+}
+
+let opentren=true;
+
+function openTrending(content){
+    if(opentren){
+        document.getElementById(content).style.display="block";
+        opentren=false;
+    }
+    else{
+        document.getElementById(content).style.display="none" ;
+        opentren=true;
     }
 }
 
